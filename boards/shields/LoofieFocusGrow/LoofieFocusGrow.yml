@@ -1,0 +1,8 @@
+file_format: "1"
+id: loofie_focusgrow
+name: LoofieFocusGrow
+type: shield
+url: https://github.com/MogmaProducts/loofie-focusgrow-zmk-module
+requires: [seeeduino_xiao_ble]
+features:
+  - keys

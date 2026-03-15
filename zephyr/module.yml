@@ -1,0 +1,4 @@
+name: LoofieFocusGrow
+build:
+  settings:
+    board_root: .

@@ -1,0 +1,8 @@
+if LOOFIE_FOCUSGROW
+config ZMK_KEYBOARD_NAME
+    default "Loofie FocusGrow"
+
+config SPI
+    default y
+
+endif
