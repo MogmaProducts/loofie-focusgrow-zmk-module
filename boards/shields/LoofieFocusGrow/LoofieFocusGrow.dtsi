@@ -2,11 +2,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-    chosen {
-        zmk,kscan = &kscan0;
-        zmk,physical-layout = &physical_layout_us;
-    };
-
     /* ─── US Enter layout ─── */
     physical_layout_us: physical_layout_us {
         compatible = "zmk,physical-layout";
