@@ -6,3 +6,9 @@ url: https://github.com/MogmaProducts/loofie-focusgrow-zmk-module
 requires: [seeeduino_xiao_ble]
 features:
   - keys
+
+variants:
+  - id: loofie_focusgrow_us
+    name: LoofieFocusGrow_US
+  - id: loofie_focusgrow_iso
+    name: LoofieFocusGrow_ISO
