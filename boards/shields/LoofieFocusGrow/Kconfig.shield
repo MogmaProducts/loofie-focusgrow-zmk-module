@@ -1,2 +1,10 @@
 config LOOFIE_FOCUSGROW
     def_bool $(shields_list_contains,LoofieFocusGrow)
+
+config LOOFIE_FOCUSGROW_US
+    def_bool $(shields_list_contains,LoofieFocusGrow_US)
+    select LOOFIE_FOCUSGROW
+
+config LOOFIE_FOCUSGROW_ISO
+    def_bool $(shields_list_contains,LoofieFocusGrow_ISO)
+    select LOOFIE_FOCUSGROW

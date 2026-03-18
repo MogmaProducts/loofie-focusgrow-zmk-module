@@ -1,5 +1,8 @@
 if LOOFIE_FOCUSGROW
+
 config ZMK_KEYBOARD_NAME
+    default "FocusGrow US" if LOOFIE_FOCUSGROW_US
+    default "FocusGrow ISO" if LOOFIE_FOCUSGROW_ISO
     default "Loofie FocusGrow"
 
 config SPI
